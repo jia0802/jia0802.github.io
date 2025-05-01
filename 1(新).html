@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>穿戴JIA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #657a92;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .section-content {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .section-item {
+      width: 300px;
+      text-align: center;
+    }
+
+    .section-item img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .section-item p {
+      margin-top: 10px;
+    }
+
+    /* 區塊1靠左 */
+    #section1 .section-content {
+      max-width: 1000px;
+      margin: 0 auto;
+      justify-content: flex-start;
+      text-align: left;
+    }
+
+    #section1 .section-item {
+      width: 100%;
+    }
+
+    /* 區塊2靠左＋大標題＋長內文 */
+    #section2 .section-content {
+      max-width: 1000px;
+      margin: 0 auto;
+      justify-content: flex-start;
+    }
+
+    #section2 .section-item {
+      width: 100%;
+      text-align: left;
+    }
+
+    #section2 .section-item ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #section2 .section-item li {
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    #section2 .section-item p {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-top: 5px;
+    }
+
+    /* 背景色分區 */
+    #section1 { background-color: #f8f8f8; }
+    #section2 { background-color: #ececec; }
+    #section3 { background-color: #dfdfdf; }
+    #section4 { background-color: #d0d0d0; }
+    #section5 { background-color: #c2c2c2; }
+    #section6 { background-color: #bbbbbb; }
+    #section7 { background-color: #acacac; }
+  </style>
+</head>
+<body>
+
+  <!-- 首頁標題 -->
+  <header>
+    <h1>穿戴JIA</h1>
+  </header>
+
+  <!-- 導覽列 -->
+  <nav>
+    <a href="#section1">網站簡介</a>
+    <a href="#section2">提供功能</a>
+    <a href="#section3">蝴蝶結系列</a>
+    <a href="#section4">星星系列</a>
+    <a href="#section5">鑽石系列</a>
+    <a href="#section6">購物車</a>
+    <a href="#section7">聯絡我們</a>
+  </nav>
+
+  <!-- 區塊1 -->
+  <section id="section1">
+    <h2>網站簡介</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <p>本網站旨在推廣「穿戴甲」產品，為顧客提供一個簡單便捷的線上平台，能夠瀏覽各類產品、了解設計特色與用途，並提供客製化選擇。
+            透過圖片與圖文並茂的說明，幫助顧客找到最符合自己風格與需求的穿戴甲款式。
+            無論是日常裝扮、特殊活動或是禮物挑選，<u>穿戴JIA</u>都致力於提供最佳選擇與體驗。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區塊2 -->
+  <section id="section2">
+    <h2>提供功能</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <ul>
+          <li>產品展示與介紹</li>
+          <p>顧客可以瀏覽多款穿戴甲圖片，查看各產品的詳細資料，包括設計特色、尺寸選項及建議用途。
+              每款產品將附上清晰圖片與說明，協助顧客做出明智選擇。</p>
+
+          <li>產品定制選項</li>
+          <p>若顧客有特殊喜好，我們提供客製化服務。可以自由選擇款式、顏色、圖案與尺寸，並提交需求，打造專屬的穿戴甲。</p>
+
+          <li>產品使用與保養</li>
+          <p>網站提供完整的使用及保養方式，教你如何配戴與保持穿戴甲最佳狀態，使用更安心。</p>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區塊3 -->
+  <section id="section3">
+    <h2>蝴蝶結系列</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <img src="IMG_20250413_162952.jpg" alt="圖7">
+        <h3>蜜糖珍語</h3>
+        <p>讓每一個細節都訴說愛的故事，蜜糖珍語是為那些渴望夢幻、甜美與精緻的你而設計。</p>
+      </div>
+      <div class="section-item">
+        <img src="IMG_20250413_162939.jpg" alt="圖8">
+        <h3>藍語糖霧</h3>
+        <p>藍語糖霧以天藍色為主調，搭配粉嫩點綴，無論是與朋友相聚，還是浪漫約會，這款穿戴甲都能為你增添無限的魅力與氣質。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區塊4 -->
+  <section id="section4">
+    <h2>星星系列</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <img src="IMG_20250413_162926.jpg" alt="圖10">
+        <h3>糖星物語</h3>
+        <p>糖星物語將甜美與浪漫的元素完美融合，粉嫩的底色與星星的閃耀交織出一段屬於你的星光物語。</p>
+      </div>
+      <div class="section-item">
+        <img src="IMG_20250413_162913.jpg" alt="圖11">
+        <h3>星紋糖晶</h3>
+        <p>星紋糖晶蘊藏著閃耀的晶體與迷人的光澤，這款穿戴甲是為追求極致品味的你而設計，讓你每一次揮手都成為焦點。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區塊5 -->
+  <section id="section5">
+    <h2>鑽石系列</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <img src="IMG_20250413_163009.jpg" alt="圖13">
+        <h3>糖晶寶盒</h3>
+        <p>糖晶寶盒以其閃亮的糖果色和璀璨的珠寶裝飾，每次手指一動，這些精緻的寶石與閃爍的點點就像是美麗的星辰，為你帶來無限的光彩。</p>
+      </div>
+      <div class="section-item">
+        <img src="IMG_20250413_163017.jpg" alt="圖14">
+        <h3>糖耀心戀</h3>
+        <p>糖耀心戀以粉色與閃耀的金屬色調為基調，搭配璀璨的愛心鑽石，為你打造出一個浪漫而華麗的愛戀故事，讓每一次擺動都充滿甜美與浪漫的氛圍。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區塊6：購物車 -->
+  <section id="section6">
+    <h2>購物車</h2>
+    <!-- 六個商品添加按鈕 -->
+    <div id="product-buttons">
+      <button onclick="addToCart('蜜糖珍語')">加入 蜜糖珍語</button>
+      <button onclick="addToCart('藍語糖霧')">加入 藍語糖霧</button>
+      <button onclick="addToCart('糖星物語')">加入 糖星物語</button>
+      <button onclick="addToCart('星紋糖晶')">加入 星紋糖晶</button>
+      <button onclick="addToCart('糖晶寶盒')">加入 糖晶寶盒</button>
+      <button onclick="addToCart('糖耀心戀')">加入 糖耀心戀</button>
+    </div>
+
+    <h3>目前購物車內容：</h3>
+    <ul id="cart"></ul>
+
+    <!-- 顯示總金額 -->
+    <p><strong>總金額：NT$<span id="cart-total">0</span></strong></p>
+
+    <button onclick="clearCart()">清空購物車</button>
+    <button onclick="checkout()">送出訂單</button>
+  </section>
+
+  <!-- 區塊7：聯絡我們 -->
+  <section id="section7">
+    <h2>聯絡我們</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwvrGipsOJuhkEYjeeofB0WLH53OQrBf1_kg4XATfdlNQ22Q/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+  </section>
+
+  <script>
+    const UNIT_PRICE = 250;
+    const cart = {};
+
+    function addToCart(name) {
+      cart[name] = (cart[name] || 0) + 1;
+      renderCart();
+    }
+
+    function renderCart() {
+      const cartList = document.getElementById("cart");
+      const totalEl = document.getElementById("cart-total");
+      cartList.innerHTML = "";
+      let total = 0;
+
+      for (let name in cart) {
+        const qty = cart[name];
+        const subtotal = qty * UNIT_PRICE;
+        total += subtotal;
+
+        const li = document.createElement("li");
+        li.innerHTML = `
+          ${name} — 單價 NT$${UNIT_PRICE} 
+          數量：<input type="number" min="1" value="${qty}" onchange="updateQuantity('${name}', this.value)" style="width:50px;">
+          小計 NT$${subtotal}
+          <button onclick="removeFromCart('${name}')">移除</button>
+        `;
+        cartList.appendChild(li);
+      }
+
+      totalEl.textContent = total;
+    }
+
+    function updateQuantity(name, value) {
+      const qty = parseInt(value);
+      if (!isNaN(qty) && qty > 0) {
+        cart[name] = qty;
+      } else {
+        delete cart[name];
+      }
+      renderCart();
+    }
+
+    function removeFromCart(name) {
+      delete cart[name];
+      renderCart();
+    }
+
+    function clearCart() {
+      for (let name in cart) delete cart[name];
+      renderCart();
+    }
+
+    function checkout() {
+      if (Object.keys(cart).length === 0) {
+        alert("購物車是空的！");
+        return;
+      }
+      let message = "您的訂單內容：\n";
+      let total = 0;
+      for (let name in cart) {
+        const qty = cart[name];
+        const subtotal = qty * UNIT_PRICE;
+        total += subtotal;
+        message += `${name} x ${qty} = NT$${subtotal}\n`;
+      }
+      message += `\n總計：NT$${total}\n\n謝謝您的訂購！`;
+      alert(message);
+      clearCart();
+    }
+
+    // 初始化
+    renderCart();
+  </script>
+
+</body>
+</html>
+
